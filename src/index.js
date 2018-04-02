@@ -21,6 +21,8 @@ class App extends React.Component {
         <ReactTable
           data={data}
           columns={[
+            {accessor: "id",
+            show:false},
             {
               Header: "Name",
               accessor: "name"
@@ -42,7 +44,7 @@ class App extends React.Component {
               accessor: "name"
             }
           ]}
-          pivotBy={["name"]}
+          pivotBy={["id"]}
           defaultPageSize={10}
           className="-striped -highlight"
         />

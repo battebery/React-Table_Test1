@@ -56,13 +56,13 @@ export const bidItemRows = [
     id: "1000",
     name: "TestA1",
     qty: 1,
-    price: 8.00,
+    price: 12.00,
     per: 1,
-    total: 8.00,
+    total: 12.00,
     raw: [
       {
         id: 0,
-        nameRaw: "raw1",
+        nameRaw: "raw0",
         qtyRaw: 2,
         priceRaw: 1.00,
         totalRaw: 2.00
@@ -73,6 +73,13 @@ export const bidItemRows = [
         qtyRaw: 3,
         priceRaw: 2.00,
         totalRaw: 6.00
+      },
+      {
+        id: 2,
+        nameRaw: "raw2",
+        qtyRaw: 1,
+        priceRaw: 4.00,
+        totalRaw: 4.00
       }
     ]
   },
@@ -86,7 +93,7 @@ export const bidItemRows = [
     raw: [
       {
         id: 0,
-        nameRaw: "raw1",
+        nameRaw: "raw0",
         qtyRaw: 2,
         priceRaw: 1.00,
         totalRaw: 2.00
