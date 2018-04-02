@@ -86,10 +86,10 @@ export const bidItemRows = [
   {
     id: "1001",
     name: "TestA2",
-    qty: 1,
+    qty: 2,
     price: 8.00,
     per: 1,
-    total: 8.00,
+    total: 16.00,
     raw: [
       {
         id: 0,
