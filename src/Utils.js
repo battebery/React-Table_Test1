@@ -50,3 +50,54 @@ export const Tips = () =>
   <div style={{ textAlign: "center" }}>
     <em>Tip: Hold shift when sorting to multi-sort!</em>
   </div>;
+
+export const bidItemRows = [
+  {
+    id: "1000",
+    name: "TestA1",
+    qty: 1,
+    price: 8.00,
+    per: 1,
+    total: 8.00,
+    raw: [
+      {
+        id: 0,
+        nameRaw: "raw1",
+        qtyRaw: 2,
+        priceRaw: 1.00,
+        totalRaw: 2.00
+      },
+      {
+        id: 1,
+        nameRaw: "raw1",
+        qtyRaw: 3,
+        priceRaw: 2.00,
+        totalRaw: 6.00
+      }
+    ]
+  },
+  {
+    id: "1001",
+    name: "TestA2",
+    qty: 1,
+    price: 8.00,
+    per: 1,
+    total: 8.00,
+    raw: [
+      {
+        id: 0,
+        nameRaw: "raw1",
+        qtyRaw: 2,
+        priceRaw: 1.00,
+        totalRaw: 2.00
+      },
+      {
+        id: 1,
+        nameRaw: "raw1",
+        qtyRaw: 3,
+        priceRaw: 2.00,
+        totalRaw: 6.00
+      }
+    ]
+  }
+];
